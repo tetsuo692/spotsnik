@@ -33,9 +33,10 @@ gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
 
 group :development do
   gem 'guard'
+  gem 'terminal-notifier-guard'
   gem 'guard-livereload'
   gem 'rack-livereload'
   gem 'rb-fsevent'
   gem 'guard-rspec'                                                                       
-  gem 'ruby_gntp'
+  gem 'guard-bundler'
 end
