@@ -30,3 +30,12 @@ gem "figaro", ">= 0.5.0"
 gem "better_errors", ">= 0.3.2", :group => :development
 gem "binding_of_caller", ">= 0.6.8", :group => :development
 gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
+
+group :development do
+  gem 'guard'
+  gem 'guard-livereload'
+  gem 'rack-livereload'
+  gem 'rb-fsevent'
+  gem 'guard-rspec'                                                                       
+  gem 'ruby_gntp'
+end
