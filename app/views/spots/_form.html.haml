@@ -1,0 +1,10 @@
+= simple_form_for(@spot, :html => {:class => 'form-horizontal' }) do |f|
+  = f.error_notification
+  
+  .form-inputs
+    = f.input :title
+    = f.input :long
+    = f.input :lat
+      
+  .form-actions
+    = f.button :submit

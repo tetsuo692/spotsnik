@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @spot.title
+%p
+  %b Location:
+  = @spot.location
+
+= link_to 'Edit', edit_spot_path(@spot)
+\|
+= link_to 'Back', spots_path

@@ -1,4 +1,7 @@
 Spotsnik::Application.routes.draw do
+  resources :spots
+
+
   authenticated :user do
     root :to => 'home#index'
   end
